@@ -5,7 +5,7 @@ const mainController = require("../controller/mainController");
 
 route.get("/",mainController.index)
 route.get("/about",mainController.about)
-
+route.get("/cow",mainController.cow)
 
 route.all("/*", function (req, res) {
     res.status(400).send({status: false,message: "The api you request is not available"})
