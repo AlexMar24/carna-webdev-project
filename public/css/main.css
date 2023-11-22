@@ -1,1 +1,30 @@
-body { background-color: darkred; }
+ body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Style the topnav links */
+ 
+  /* Style the content */
+  .content {
+        grid-area: header;
+        background-color: lightblue;
+        padding: 30px;
+        text-align: center;
+        font-size: 35px;
+  }
+  /* Style the footer */
+.math {
+    display: flex;
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+  }
+
